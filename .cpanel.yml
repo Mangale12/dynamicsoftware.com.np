@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sharewar/dynamicsoftware.com.np
+    - /bin/cp -rf * $DEPLOYPATH
